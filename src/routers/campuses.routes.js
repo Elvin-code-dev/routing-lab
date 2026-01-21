@@ -1,5 +1,7 @@
 import { Router } from "express";
-import { aboutInfo, listCampuses, getCampusById, searchCampuses } from "../controllers/campusesController.js";
+import { aboutInfo, listCampuses, getCampusById, searchCampuses } 
+from "../controllers/campuses.controller.js";
+
 
 const router = Router();
 

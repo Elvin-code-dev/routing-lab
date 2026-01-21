@@ -1,6 +1,6 @@
 import express from 'express';
-import defaultRouter from './routers/default.routes.js';
-import campusesRouter from "./routers/campusesRouter.js";
+import defaultRouter from "./routers/default.routes.js";
+import campusesRouter from "./routers/campuses.routes.js";
 
 //configure Express.js app
 const app = express();
